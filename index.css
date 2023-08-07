@@ -1,0 +1,167 @@
+@import url("https://fonts.google.com/specimen/Manrope");
+body {
+  font-family: Manrope;
+  background-color: hsl(218, 23%, 16%);
+  font-weight: 800;
+  overflow: hidden;
+}
+@media (max-width: 1440px) {
+  .attribution {
+    color: white;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .main {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 450px;
+  }
+  .advice-id .id {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+  }
+  .advice-text {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    max-width: 400px;
+    max-height: 300px;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .advice-text .text {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    line-break: auto;
+  }
+  .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .line i {
+    padding: 0 15px 0 15px;
+    color: #ffffff;
+  }
+  hr {
+    width: 170px;
+  }
+  .random-advice {
+    position: absolute;
+    top: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: transparent;
+    transition: box-shadow 0.5s;
+  }
+  .random-advice svg {
+    font-size: 20px;
+  }
+  button.random-advice:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+  }
+}
+@media (max-width: 375px) {
+  .attribution {
+    color: white;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .main {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 100%;
+    max-width: max-content;
+  }
+  .advice-id .id {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+  }
+  .advice-text {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    max-width: 400px;
+    max-height: 300px;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .advice-text .text {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    line-break: auto;
+  }
+  .line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    box-shadow: none;
+  }
+  .line i {
+    padding: 0 15px 0 15px;
+    color: #ffffff;
+  }
+  hr {
+    width: 100px;
+  }
+  .random-advice {
+    position: absolute;
+    top: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: transparent;
+    transition: box-shadow 0.5s;
+  }
+  .random-advice svg {
+    font-size: 20px;
+  }
+  button.random-advice:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+  }
+}
